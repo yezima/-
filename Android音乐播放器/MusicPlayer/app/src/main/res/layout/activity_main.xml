@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@mipmap/tupian"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/play"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="#ea5567"
+            android:text="播放"></TextView>
+        <TextView
+            android:id="@+id/pause"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp"
+            android:background="#ea5567"
+            android:text="暂停"></TextView>
+        <TextView
+            android:id="@+id/stop"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="#ea5567"
+            android:text="停止"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/shang"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="#ea5567"
+            android:text="上一首"></TextView>
+        <TextView
+            android:id="@+id/xia"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp"
+            android:background="#ea5567"
+            android:text="下一首"></TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
